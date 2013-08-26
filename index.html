@@ -2,26 +2,32 @@
 	<html lang="es">
 	<head>
 		<meta charset="UTF-8">
-		<title>DashBoard html5</title>
+		<title>DashBoard</title>
+		<meta name="viewport" content="width=device-width , maximum-scale=1">
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/hoja.css">
-		<script src="js/prefixfree.min.js"></script>
 	</head>
 	<body>
-		<nav>
-			<ul>
-				<li><a href="#"></a>Dashboard</li>
-				<li><a href="#"></a>AquaControl</li>
-				<li><a href="#"></a>Administrativo</li>
-				<li><a href="#"></a>Tablas</li>
-				<li><a href="#"></a>Salir</li>
-			</ul>
-		</nav>
 		<header>
 			<hgroup>
-				<h1>DashBoard Free Version</h1>
-				<h2>by Rodsoft</h2>
+				<h1>DashBoard</h1>
+					
 			</hgroup>
 		</header>
+		<section>	
+			<div id="login">
+				<form action="admin.php" id="Formulario_Login">
+					<h3>Login de Usuario</h3>
+					<p>Usuario o Contraseña Invalida</p>
+					<input type="text" id="xUsuario" placeholder="Ingrese el Usuario">
+					<input type="password" id="xPass" Placeholder ="Ingrese Password">
+					<input type="submit" value="Autentificar">
+				</form>
+			</div>
+		</section>
+	<script	src="js/jquery.js"></script>
+	<script src="js/prefixfree.min.js"></script>
+	<script src="js/codigo.js"></script>
 	</body>
+
 	</html>	

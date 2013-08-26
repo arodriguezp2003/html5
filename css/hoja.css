@@ -8,33 +8,56 @@ body
 	padding: 0;
 	text-align: center;
 }
-nav
-{
-	background: rgb(157,213,58); /* Old browsers */
-	background: -moz-linear-gradient(top,  rgba(157,213,58,1) 0%, rgba(161,213,79,1) 50%, rgba(128,194,23,1) 51%, rgba(124,188,10,1) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(157,213,58,1)), color-stop(50%,rgba(161,213,79,1)), color-stop(51%,rgba(128,194,23,1)), color-stop(100%,rgba(124,188,10,1))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=0 ); /* IE6-9 */
 
-	width: 100%
+section 
+{
+	margin: auto;
 }
-nav ul
+section #login 
 {
-	margin: 0; padding: 0;
+	background: #FFF;
+	box-shadow:  0px 0px 5px rgba(50, 50, 50, 0.75);
+	border-radius: 0.7em;
+	height: 200px;
+	margin: auto;
+	padding: 0.3em 0.7em;
+	width: 260px;
 }
-nav ul li
+section #login p
 {
 
-
+	background: red;
 	color: #FFF;
-	display: inline-block;
-	padding: 0.4em 1em;
-}
-nav ul li a
-{
+	box-shadow:  0px 0px 1px rgba(50, 50, 50, 0.75);
+	border-radius: 0.5em;
+	padding: 0.0em;
+	font-size: 0.7em;
 	font-weight: bold;
+    transition: all 1s ease;
+    width:0%;
+    height: 0;
+    overflow: hidden;
 
+	
+}
+
+section #login  input
+{
+	display: block;
+	border: #EEE 1px solid;
+	border-radius: 0.7em;
+	box-shadow:  0px 0px 5px rgba(50, 50, 50, 0.75);
+	margin: 0.5em 0;
+	padding: 0.5em 0;
+	text-align: center;
+	width: 100%;
+	
+}
+section #login  input[type=submit]
+{
+	background: #FFA500;
+	color:#fff;
+	font-weight: bold;
+	text-shadow: 0.1em 0.1em #333;
+	
 }
